@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+
+  @include mediaTablet {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    padding: 90px 0;
+    transition: all 0.3s ease-in-out;
+    background: rgba(16, 16, 29);
+
+    &.open {
+      opacity: 1;
+    }
+  }
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 900px) {
+    gap: 25px;
+  }
+
+  @include mediaTablet {
+    flex-direction: column;
+  }
+}
+
+.menu__link {
+  font-weight: 600;
+
+  &-active {
+    color: $accent;
+  }
+
+  @include mediaTablet {
+    font-size: 20px;
+  }
+}
