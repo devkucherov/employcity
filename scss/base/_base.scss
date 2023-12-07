@@ -17,6 +17,10 @@ a {
 .main {
   background: $dark;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 1032px) {
+    margin-bottom: 120px;
+  }
 }
 
 .container {
