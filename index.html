@@ -131,6 +131,38 @@
               <div class="work-scheme__text">Excepteur sint occaecat cupidatat non proident</div>
             </div>
           </div>
+          <!-- /.work-scheme -->
+
+          <form class="form">
+            <div class="select">
+                <button class="select__btn">Выберите тип системы</button>
+                <ul class="select__option-list select__option-list--hiden">
+                    <li data-value="Sed" class="select__option-item">Sed ut perspiciatis</li>
+                    <li data-value="Nemo" class="select__option-item">Nemo enim ipsam</li>
+                    <li data-value="Et" class="select__option-item">Et harum quidem</li>
+                    <li data-value="Temporibus" class="select__option-item">Temporibus autem</li>
+                    <li data-value="Itaque" class="select__option-item">Itaque earum rerum</li>
+                </ul>
+                <input class="select__input" name="option" value="" type="text">
+            </div>
+            <input name="email" placeholder="Ваш e-mail" type="email" class="form__mail">
+            <input name="name" placeholder="Ваше имя" type="text" class="form__name">
+            <label class="form__wrap">
+                <div class="form__range-wrap">
+                    <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                    <div class="output">
+                        <output name="val" for="range"></output id="value"><span id="value"></span> %
+                    </div>
+                </div>
+                <input oninput="percent()" id="range" name="range" type="range" min="0" max="100" step="5" class="form__range">
+            </label>
+            <div class="file">
+                <input name="file" type="file" class="form__file">
+                <div class="file__button"><img src="./img/file-icon.svg" alt="file">Прикрепить файл</div>
+            </div>
+            <button class="form__btn btn btn_form" type="submit">Отправить</button>
+          </form>
+        <!-- /.form -->
         </div>
       </section>
       <!-- /.order -->
