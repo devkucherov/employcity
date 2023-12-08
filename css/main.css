@@ -131,7 +131,7 @@ a:hover {
 }
 @media screen and (max-width: 1032px) {
   .main {
-    margin-bottom: 120px;
+    margin-bottom: 140px;
   }
 }
 
@@ -412,6 +412,16 @@ a:hover {
   }
 }
 
+.order {
+  background-color: #3D4050;
+  background-image: url(../img/order-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -437,7 +447,7 @@ a:hover {
 }
 @media screen and (max-width: 1032px) {
   .footer__wrap {
-    height: 120px;
+    height: 140px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
