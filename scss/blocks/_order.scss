@@ -1,9 +1,27 @@
 .order {
-  background-color: $footer-bg;
+  
   background-image: url(../img/order-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 120px;
   padding-bottom: 150px;
+}
+
+.order__title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+
+  span {
+    color: $accent;
+  }
+}
+
+.order__subtitle {
+  color: $gray;
+  font-size: 18px;
+  text-align: center;
 }

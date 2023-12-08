@@ -111,7 +111,7 @@ legend {
 
 body {
   font-family: "Lato", sans-serif;
-  background: #222831;
+  background-color: #3D4050;
   color: #eee;
   font-size: 13px;
 }
@@ -319,7 +319,8 @@ a:hover {
 }
 
 .hero {
-  background: url(./../img/hero-bg.jpg);
+  background-image: url(./../img/hero-bg.jpg);
+  background-color: #eee;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -413,13 +414,29 @@ a:hover {
 }
 
 .order {
-  background-color: #3D4050;
   background-image: url(../img/order-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 120px;
   padding-bottom: 150px;
+}
+
+.order__title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.order__title span {
+  color: #3E9CDC;
+}
+
+.order__subtitle {
+  color: #BBB;
+  font-size: 18px;
+  text-align: center;
 }
 
 .footer {
